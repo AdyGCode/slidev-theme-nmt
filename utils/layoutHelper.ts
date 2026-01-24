@@ -23,7 +23,7 @@ export function handleBackground(background?: string, dim = false): CSSPropertie
       ? undefined
       : background
         ? dim
-          ? `linear-gradient(#0005, #0008), url(${resolveAssetUrl(background)})`
+          ? `linear-gradient(#0000, #000F), url(${resolveAssetUrl(background)})`
           : `url("${resolveAssetUrl(background)}")`
         : undefined,
     backgroundRepeat: 'no-repeat',

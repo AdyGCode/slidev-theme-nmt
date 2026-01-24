@@ -11,14 +11,14 @@ const props = defineProps({
 
 <template>
   <div
-    class="slidev-layout two-columns"
+    class="slidev-layout two-columns two-one"
     :class="props.layoutClass"
   >
-    <div class="col-span-1 " :class="props.class">
+    <div class="col-span-2 two-one" :class="props.class">
       <slot />
     </div>
 
-    <div class="col-span-1 " :class="props.class">
+    <div class="col-span-1 two-one" :class="props.class">
       <slot name="right" />
     </div>
   </div>
