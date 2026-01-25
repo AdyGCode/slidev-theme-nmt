@@ -8,12 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@iconify-json/fa7-brands':
-        specifier: ^1.2.1
-        version: 1.2.1
-      '@iconify-json/fa7-solid':
-        specifier: ^1.2.3
-        version: 1.2.3
       '@slidev/types':
         specifier: ^52.11.3
         version: 52.11.3(@nuxt/kit@3.21.0)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.7)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
@@ -24,12 +18,27 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(@slidev/client@52.11.3(@nuxt/kit@3.21.0)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(vite@7.3.1(@types/node@22.19.7)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2)))(vue@3.5.27(typescript@5.9.3))
     devDependencies:
+      '@iconify-json/fa7-brands':
+        specifier: ^1.2.1
+        version: 1.2.1
+      '@iconify-json/fa7-regular':
+        specifier: ^1.2.2
+        version: 1.2.2
+      '@iconify-json/fa7-solid':
+        specifier: ^1.2.3
+        version: 1.2.3
       '@slidev/cli':
         specifier: ^52.11.3
         version: 52.11.3(@babel/parser@7.28.6)(@nuxt/kit@3.21.0)(@types/markdown-it@14.1.2)(@types/node@22.19.7)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.0)(postcss@8.5.6)(tsx@4.21.0)
+      '@unocss/preset-icons':
+        specifier: ^66.6.0
+        version: 66.6.0
       playwright-chromium:
         specifier: ^1.58.0
         version: 1.58.0
+      unocss:
+        specifier: ^66.6.0
+        version: 66.6.0(postcss@8.5.6)(vite@7.3.1(@types/node@22.19.7)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
 
 packages:
 
@@ -361,6 +370,9 @@ packages:
 
   '@iconify-json/fa7-brands@1.2.1':
     resolution: {integrity: sha512-LbOn96p41X63dIdag/vfuYnXQZcKjo0o9XZTzU58/HJOyV1rWb2TwitSgB1xiAcOMwswmvgXQV/+blZc+101dg==}
+
+  '@iconify-json/fa7-regular@1.2.2':
+    resolution: {integrity: sha512-SBSDkdE6yPhCxebAgpbDF9PPUJ7FKEtR/dMCqOqMHvZmJn4Cu/mz6ZVuY3S91PK11MMT/XeKE0aeVwCbgtWt5w==}
 
   '@iconify-json/fa7-solid@1.2.3':
     resolution: {integrity: sha512-QMpjaoljKlJ33jnwIlvE/BF449AD+aVUe2o46Wl8oKUHCy+M2E4GRM4LvRaGdCOTUSE3VIQlXkqkYBug8WHEVQ==}
@@ -3022,6 +3034,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/fa7-brands@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/fa7-regular@1.2.2':
     dependencies:
       '@iconify/types': 2.0.0
 

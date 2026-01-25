@@ -15,7 +15,7 @@ syncStates:
   pollUsers:
     presenter: true
   # Add the following lines if you want to also sync slidev channels
-  shared: ["page", "clicks", "cursor", "lastUpdate"]
+  shared: [ "page", "clicks", "cursor", "lastUpdate" ]
   drawings: false
 ---
 
@@ -112,6 +112,7 @@ layout: grid
 # 4 Section Grid
 
 ::tr::
+
 ## Top Right
 
 ```text
@@ -119,6 +120,7 @@ layout: grid
 ```
 
 ::tl::
+
 ## Top Left
 
 ```text
@@ -126,6 +128,7 @@ layout: grid
 ```
 
 ::br::
+
 ## Bottom Right
 
 ```text
@@ -133,6 +136,7 @@ layout: grid
 ```
 
 ::bl::
+
 ## Bottom Left
 
 ```text
@@ -165,6 +169,58 @@ function updateUser(id: number, update: Partial<User>) {
     saveUser(id, newUser)
 }
 ```
+
+---
+layout: default
+---
+
+# Announcements
+
+A small component to add an announcement to a page.
+
+<Announcement type="default" title="Default Note" inline>
+    Just something to think about
+</Announcement>
+
+<Announcement type="idea" title="Idea" inline>
+    Propose an idea
+</Announcement>
+
+<Announcement type="brainstorm" title="Brainstorm" inline>
+    We need ideas
+</Announcement>
+
+<Announcement type="error" title="Error" inline>
+    Danger or probable BOO-BOO
+</Announcement>
+
+<Announcement type="warning" inline>
+    When errors MAY happen
+</Announcement>
+
+<Announcement type="info" inline>
+    Sidebar information
+</Announcement>
+
+<Announcement type="duration" title="Duration" inline>
+    How long it takes
+</Announcement>
+
+<Announcement type="important" title="Important">
+Bring attention to an item
+</Announcement>
+
+<Announcement type="priority" compact width=full>
+Do this first
+</Announcement>
+
+<Announcement type="info" title="Heads up">
+    Custom icon via slot
+    <template #icon>
+        <i class="i-fa7-solid-user-ninja h-5 w-5 mt-0.5"></i>
+    </template>
+</Announcement>
+
 
 ---
 
@@ -254,7 +310,6 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd>  | previous animation or slide |
 | <kbd>up</kbd>                                        | previous slide              |
 | <kbd>down</kbd>                                      | next slide                  |
-
 
 ---
 layout: center
