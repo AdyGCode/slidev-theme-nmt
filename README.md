@@ -1,24 +1,22 @@
 # Slidev Theme - NMT (Unofficial)
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-nmt?color=F141A8&label=)](https://www.npmjs.com/package/slidev-theme-the-unnamed)
-
 A [Slidev](https://sli.dev/) theme based on the [The unnamed - VS Code theme](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-unnamed-theme) by [Elio Struyf](https://elio.dev).
 
 This (unofficial) theme is for use IT lecturers at North Metropolitan TAFE.
 
 We are restricting the customisation ability, but welcome feedback.
 
-## Latest Update
+## Latest Update [![NPM version](https://img.shields.io/npm/v/slidev-theme-nmt?color=F141A8&label=)](https://www.npmjs.com/package/slidev-theme-the-unnamed)
 
 - Add `Announcement` component ([Skip to Components section](#components))
 - Tidy up errors in `ReadMe.md`
-- 
+- Minor fixes to heading styles
 
 ## Usage
 
-Add the following frontmatter to your `slides.md`.
+Add the following front-matter to your `slides.md`.
 
-Start Slidev then it will prompt you to install the theme automatically.
+Start `Slidev` then it will prompt you to install the theme automatically.
 
 ```yaml
 ---

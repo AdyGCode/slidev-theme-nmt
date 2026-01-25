@@ -60,7 +60,7 @@ Paragraph on the cover.
 layout: section
 ---
 
-# Section title
+# Section title with Subheading
 
 ## Subheading if needed
 
@@ -70,7 +70,7 @@ Short content
 layout: center
 ---
 
-# Center title
+# Center title  AaHhJjGgMmYy
 
 Subtitle for the center layout
 
