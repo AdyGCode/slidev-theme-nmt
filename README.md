@@ -33,12 +33,11 @@ The theme currently has the following layouts:
 - `two-cols-2-1`
 - and the ones from Slidev itself
 
-
 ### Cover
 
 ![](/assets/cover.png)
 
-**Usage**
+#### Usage
 
 ```yaml
 ---
@@ -50,7 +49,7 @@ layout: cover
 
 ![](/assets/about-me.png)
 
-**Usage**
+#### Usage
 
 ```yaml
 ---
@@ -73,7 +72,7 @@ imageSrc: /ajg-designer.png
 
 ![](/assets/center.png)
 
-**Usage**
+#### Usage
 
 ```yaml
 ---
@@ -86,7 +85,7 @@ background: <image url or HEX or rbg or rgba> (optional)
 
 ![](/assets/section.png)
 
-**Usage**
+#### Usage
 
 ```yaml
 ---
@@ -98,7 +97,7 @@ layout: section
 
 ![](/assets/two-cols.png)
 
-**Usage**
+#### Usage
 
 ```yaml
 ---
@@ -116,12 +115,11 @@ This shows on the left
 This shows on the right
 ```
 
-
 ### Two columns 2-1
 
 ![](/assets/two-cols-2-1.png)
 
-**Usage**
+#### Usage
 
 ```yaml
 ---
@@ -143,16 +141,12 @@ This shows on the right
 
 ![](/assets/code.png)
 
-**Usage**
+#### Usage
 
 ```yaml
 ---
 layout: default
 ---
 ```
-
-
-<br />
-<br />
 
 ![Visits](https://visitorbadge.vercel.app//api/badge/0eb6e5bf-1c67-400f-a9b3-17f25997c209?style=for-the-badge&color=bd0000&labelColor=000000)
