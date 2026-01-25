@@ -6,7 +6,7 @@ This (unofficial) theme is for use IT lecturers at North Metropolitan TAFE.
 
 We are restricting the customisation ability, but welcome feedback.
 
-## Latest Update [![NPM version](https://img.shields.io/npm/v/slidev-theme-nmt?color=F141A8&label=)](https://www.npmjs.com/package/slidev-theme-the-unnamed)
+## Latest Update [![NPM version](https://img.shields.io/npm/v/slidev-theme-nmt?color=c12138&label=)](https://www.npmjs.com/package/slidev-theme-nmt)
 
 - Add `Announcement` component ([Skip to Components section](#components))
 - Tidy up errors in `ReadMe.md`
