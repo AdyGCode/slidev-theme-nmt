@@ -14,8 +14,12 @@ const props = defineProps({
     class="slidev-layout two-columns two-one"
     :class="props.layoutClass"
   >
-    <div class="col-span-2 two-one" :class="props.class">
+    <div class="col-span-3" :class="props.class">
       <slot />
+    </div>
+
+    <div class="col-span-2 two-one" :class="props.class">
+      <slot name="left"/>
     </div>
 
     <div class="col-span-1 two-one" :class="props.class">
