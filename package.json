@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-nmt",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "type": "module",
   "keywords": [
     "slidev-theme",
@@ -19,7 +19,8 @@
   "dependencies": {
     "@slidev/types": "^52.11.3",
     "slidev-addon-sync": "^0.1.0",
-    "slidev-component-poll": "^3.0.0"
+    "slidev-component-poll": "^3.0.0",
+    "slidev-addon-announcement": "^0.1.2"
   },
   "devDependencies": {
     "@iconify-json/fa7-brands": "^1.2.1",
