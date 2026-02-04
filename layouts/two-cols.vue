@@ -18,11 +18,11 @@ const props = defineProps({
       <slot />
     </div>
 
-    <div class="col-span-1 " :class="props.class">
+    <div class="two-cols-left col-span-1 " :class="props.class">
       <slot name="left"/>
     </div>
 
-    <div class="col-span-1 " :class="props.class">
+    <div class="two-cols-right col-span-1 " :class="props.class">
       <slot name="right" />
     </div>
   </div>

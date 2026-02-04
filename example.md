@@ -5,7 +5,8 @@ lineNumbers: true
 addons:
   - slidev-component-poll
   - slidev-addon-sync
-
+  - slidev-addon-announcement
+  
 #syncSettings:
 #  server: http://127.0.0.1:8080
 syncStates:
@@ -79,13 +80,17 @@ Subtitle for the center layout
 layout: two-cols
 ---
 
-# Left
+# Two Columns
+
+::left::
+
+## Left
 
 This shows on the left 1/2
 
 ::right::
 
-# Right
+## Right
 
 This shows on the right 1/2
 
@@ -94,13 +99,18 @@ This shows on the right 1/2
 layout: two-cols-2-1
 ---
 
-# Left
+# Two Columns 2:1
+
+::left::
+
+
+## Left
 
 This shows on the left 2/3
 
 ::right::
 
-# Right
+## Right
 
 This shows on the right 1/3
 

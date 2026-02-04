@@ -319,17 +319,23 @@
 /* Two columns */
 .slidev-layout.two-columns {
 
-    @apply gap-6 px-8 py-4;
+    @apply gap-6 px-8 py-6;
     @apply w-full h-full;
     @apply grid grid-cols-2;
+    @apply content-start;
 
     h1 {
         @apply odd:bg-purple-500 text-purple-100 ;
     }
 
-    div {
-        @apply p-4 mt-6;
-        @apply bg-zinc-950/50 rounded;
+    h2,h3,h4,h5,h6{
+        @apply -mt-4 -mx-4 p-2 overflow-hidden rounded-t;
+        @apply bg-purple-900 text-purple-200;
+    }
+
+    .two-cols-left, .two-cols-right {
+        @apply p-4 mt-2;
+        @apply bg-zinc-900/50 rounded;
     }
 }
 
@@ -337,10 +343,22 @@
 .slidev-layout.two-columns.two-one {
     @apply grid-cols-3;
 
-    .two-one h1 {
+    h1 {
         @apply text-cyan-100;
         @apply odd:bg-cyan-700;
     }
+
+
+    h2,h3,h4,h5,h6{
+        @apply -mt-4 -mx-4 p-2 overflow-hidden rounded-t;
+        @apply bg-cyan-900 text-cyan-200;
+    }
+
+    .two-cols-left, .two-cols-right {
+        @apply p-4 mt-2;
+        @apply bg-zinc-900/50 rounded;
+    }
+
 }
 
 /* About me slide */
@@ -381,8 +399,8 @@
 
 
 .grid4 {
-    @apply flex flex-col justify-center;
-    @apply h-full w-full space-y-4;
+    @apply flex flex-col justify-center content-start;
+    @apply h-full w-full space-y-2;
 
     h1 {
         @apply bg-fuchsia-700;
@@ -390,7 +408,17 @@
     }
 
     h2 {
-        @apply text-xl;
+        @apply text-lg;
+    }
+
+
+    h2,h3,h4,h5,h6{
+        @apply -mt-2 -mx-2 p-2 ;
+        @apply bg-cyan-900 text-cyan-200;
+    }
+
+    p{
+        @apply space-y-1;
     }
 
     .grid-sections {
@@ -399,8 +427,9 @@
     }
 
     .cell {
-        @apply bg-zinc-900/30 odd:bg-gray-950/50;
-        @apply rounded p-4;
+        @apply flex flex-col space-y-1 ;
+        @apply bg-zinc-700/50;
+        @apply rounded px-2 pt-1 pb-3 overflow-hidden;
         @apply w-9/20 grow;
     }
 
