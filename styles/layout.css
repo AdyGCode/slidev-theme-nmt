@@ -3,7 +3,7 @@
     /* can be overrided by uses `themeConfig` option */
     --slidev-theme-primary: #161c2c;
     --slidev-theme-color: #f3eff5;
-    --slidev-theme-background: url(../public/nmt-bg-red-top.svg);
+    --slidev-theme-background: url(../public/images/nmt-bg-red-top.svg);
 
 
     /* Custom colors*/
