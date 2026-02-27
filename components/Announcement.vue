@@ -124,7 +124,7 @@ const containerClasses = computed(() => {
 
   return [
     display,
-    'items-stretch gap-3 rounded leading-5 font-normal bg-zinc-700 text-zinc-200',
+    'items-stretch gap-3 rounded leading-5 font-normal',
     width,
     padding,
     minH,
