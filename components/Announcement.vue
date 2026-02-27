@@ -12,6 +12,16 @@
       <slot/>
     </span>
 
+    <span class="bg-zinc-800 text-zinc-200
+bg-red-800 text-red-200
+bg-amber-800 text-amber-200
+bg-sky-800 text-sky-200
+bg-blue-800 text-blue-200
+bg-green-800 text-green-200
+bg-teal-800 text-teal-200
+bg-violet-800 text-violet-200
+bg-pink-800 text-pink-200"></span>
+
   </div>
 </template>
 
