@@ -1,11 +1,11 @@
 ---
 theme: ./
 lineNumbers: true
-
+background: images/nmt-bg-red-top.svg
 addons:
   - slidev-component-poll
   - slidev-addon-sync
-
+  
 #syncSettings:
 #  server: http://127.0.0.1:8080
 syncStates:
@@ -47,6 +47,7 @@ imageSrc: /ajg-designer.png
 
 ---
 layout: cover
+background: images/nmt-bg-red-top.svg
 ---
 
 # Cover title
@@ -58,6 +59,7 @@ Paragraph on the cover.
 
 ---
 layout: section
+background: images/nmt-bg-red-top.svg
 ---
 
 # Section title with Subheading
@@ -76,16 +78,35 @@ Subtitle for the center layout
 
 
 ---
+layout: figure
+figureUrl: images/ajg-designer.png
+figureCaption: Picture of Author
+---
+
+
+---
+layout: figure-side
+figureUrl: images/ajg-designer.png
+figureCaption: Picture of Author
+---
+
+# Image on side
+
+---
 layout: two-cols
 ---
 
-# Left
+# Two Columns
+
+::left::
+
+## Left
 
 This shows on the left 1/2
 
 ::right::
 
-# Right
+## Right
 
 This shows on the right 1/2
 
@@ -94,13 +115,18 @@ This shows on the right 1/2
 layout: two-cols-2-1
 ---
 
-# Left
+# Two Columns 2:1
+
+::left::
+
+
+## Left
 
 This shows on the left 2/3
 
 ::right::
 
-# Right
+## Right
 
 This shows on the right 1/3
 
