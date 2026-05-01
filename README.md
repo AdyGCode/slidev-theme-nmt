@@ -2,9 +2,9 @@
 
 A [Slidev](https://sli.dev/) theme based on the [The unnamed - VS Code theme](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-unnamed-theme) by [Elio Struyf](https://elio.dev).
 
-This (unofficial) theme is for use IT lecturers at North Metropolitan TAFE.
-
-We are restricting the customisation ability, but welcome feedback.
+> This (unofficial) theme is for use IT lecturers at North Metropolitan TAFE.
+>
+> We are restricting the customisation ability, but welcome feedback.
 
 ## Latest Update [![NPM version](https://img.shields.io/npm/v/slidev-theme-nmt?color=c12138&label=)](https://www.npmjs.com/package/slidev-theme-nmt)
 

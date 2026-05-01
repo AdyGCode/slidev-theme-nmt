@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { resolveAssetUrl } from '../layoutHelper';
+import { resolveAssetUrl } from '../utils/layoutHelper';
 
 defineProps<{ caption?: string; footnoteNumber?: number; url: string }>();
 </script>

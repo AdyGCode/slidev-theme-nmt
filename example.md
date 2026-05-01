@@ -1,11 +1,12 @@
 ---
 theme: ./
-lineNumbers: true
 background: images/nmt-bg-red-top.svg
+
 addons:
-  - slidev-component-poll
   - slidev-addon-sync
   
+lineNumbers: true
+
 #syncSettings:
 #  server: http://127.0.0.1:8080
 syncStates:
@@ -38,10 +39,18 @@ position: left
 company: "North Metropolitan TAFE"
 jobRole: "ASL | HelpDesk Admin | ScreenCraft Admin"
 subjects: "SaaS, API Dev, IoT"
+email: "adrian.gould@nmtafe.wa.edu.au"
 msTeams: "Teams: adrian.gould@nmtafe.wa.edu.au"
 website: "https://northmetrotafe.wa.edu.au"
 github: "https://github.com/adygcode"
-imageSrc: /ajg-designer.png
+imageSrc: /images/ajg-designer.png
+skills: "PHP, C++, Design"
+facebook: "@Facebook name"
+twitter: "@Twitter name"
+instagram: "@Instagram name"
+line1: "Line 1 - use line1, line2 and line3 for other details"
+line2: "Line 2 - use line1, line2 and line3 for other details"
+line3: "Line 3 - use line1, line2 and line3 for other details"
 ---
 
 
@@ -204,7 +213,7 @@ layout: default
 
 A small component to add an announcement to a page.
 
-<Announcement type="default" title="Default Note" inline>
+<Announcement type="default" title="Default" inline>
     Just something to think about
 </Announcement>
 
@@ -220,11 +229,11 @@ A small component to add an announcement to a page.
     Danger or probable BOO-BOO
 </Announcement>
 
-<Announcement type="warning" inline>
+<Announcement type="warning" inline title="Warning">
     When errors MAY happen
 </Announcement>
 
-<Announcement type="info" inline>
+<Announcement type="info" inline title="Info">
     Sidebar information
 </Announcement>
 
@@ -236,14 +245,18 @@ A small component to add an announcement to a page.
 Bring attention to an item
 </Announcement>
 
-<Announcement type="priority" compact width=full>
+<Announcement type="joke" title="Joke">
+Bring attention to an item
+</Announcement>
+
+<Announcement type="priority" title="Priority" width="full">
 Do this first
 </Announcement>
 
-<Announcement type="info" title="Heads up">
+<Announcement type="info" title="Heads up" class="bg-slate-800! color-slate-400!">
     Custom icon via slot
     <template #icon>
-        <i class="i-fa7-solid-user-ninja h-5 w-5 mt-0.5"></i>
+        <i class="i-fa-solid-user-ninja h-5 w-5 mt-0.5"></i>
     </template>
 </Announcement>
 
@@ -353,6 +366,6 @@ transition: fade-out
 level: 2
 ---
 
-# Laisser les bon temps rouler <fa7-solid-brain />
+# Laisser les bon temps rouler <fa-solid-brain />
 
 The end... for now
