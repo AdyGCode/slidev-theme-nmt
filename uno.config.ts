@@ -4,8 +4,7 @@ import presetIcons from '@unocss/preset-icons'
 
 export default defineConfig({
     presets: [
-        // presetUno(),
-        presetWind4(),
+        presetUno(),
         presetIcons({
             scale: 1,
             // Enable offline usage with iconify-json if you’ve added the collections

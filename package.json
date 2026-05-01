@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-nmt",
-  "version": "0.9.8",
+  "version": "0.9.9",
   "type": "module",
   "keywords": [
     "slidev-theme",
@@ -37,11 +37,15 @@
     "colorSchema": "both",
     "defaults": {
       "fonts": {
-        "mono": "Fira Code",
-        "serif": "Roboto Serif",
-        "sans": "Lexend,Avenir Next,Nunito Sans",
-        "local": "Lexend,Avenir Next"
-      }
+        "provider": "coollabs",
+        "mono": "Fira Code,consolas",
+        "serif": "Roboto Serif,Georgia",
+        "sans": "Lexend,Avenir Next.Arial",
+        "local": "Lexend,Avenir Next,Arial",
+        "italic": false
+      },
+      "transition": "fade",
+      "aspectRatio": "16/10"
     }
   },
   "author": "Adrian Gould <ady.g.coder@gmail.com>",
